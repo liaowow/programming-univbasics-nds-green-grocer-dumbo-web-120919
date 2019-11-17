@@ -40,7 +40,7 @@ end
 
 def apply_coupons(cart, coupons)
   #figure out what to loop thru first: cart or coupons 
-  #loop thru coupons first bc we need to apply all the coupons
+  #loop thru coupons bc we need to apply all the coupons
   counter = 0
   while counter < coupons.length
     ## create 3 variables
